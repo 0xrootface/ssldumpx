@@ -26,8 +26,12 @@ This will download, build, and install the `ssldumpx` binary to your `$GOPATH/bi
 ---
 🛠️ Example usage:
 `cat ips.txt | ./ssldumpx -silent -uniq`
+
 or
+
 `echo 1.1.1.1/19 | mapcidr -silent | ssldumpx -all -silent -threads 500 `
+
+- install mapcidr: `go install -v github.com/projectdiscovery/mapcidr/cmd/mapcidr@latest`
 
 ---
 🧪 Sample output:
