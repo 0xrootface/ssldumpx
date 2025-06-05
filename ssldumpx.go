@@ -9,7 +9,6 @@ import (
 	"net"
 	"os"
 	"regexp"
-	"sort"
 	"strings"
 	"sync"
 	"time"
