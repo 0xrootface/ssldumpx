@@ -26,6 +26,8 @@ This will download, build, and install the `ssldumpx` binary to your `$GOPATH/bi
 ---
 🛠️ Example usage:
 `cat ips.txt | ./ssldumpx -silent -uniq`
+or
+`echo 1.1.1.1/19 | mapcidr -silent | ssldumpx -all -silent -threads 500 `
 
 ---
 🧪 Sample output:
