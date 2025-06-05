@@ -1,3 +1,3 @@
-module github.com/yourusername/ssldumpx
+module github.com/0xrootface/ssldumpx
 
 go 1.21
